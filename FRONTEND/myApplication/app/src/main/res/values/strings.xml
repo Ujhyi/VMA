@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="register">Register\n</string>
+    <string name="username">Username\n</string>
+    <string name="email1">Email</string>
+    <string name="password1">Password</string>
+    <string name="school">School</string>
+    <string name="isic">ISIC</string>
+    <string name="email">Email\n</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="app_name" />
+    <string name="choose_school">Choose School</string>
+    <string name="reset_your_password_click_here">Reset your password. Click Here.</string>
+    <string name="for_registration_click_here">For registration Click Here.</string>
+    <string name="registration">Registration</string>
+    <string name="have_an_account_click_here">Have an account ? Click here.</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="create_new_event">Create New Event</string>
+    <string name="create_event">Create Event</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

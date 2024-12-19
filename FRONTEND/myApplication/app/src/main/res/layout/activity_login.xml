@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="335dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/students_meeting" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_email" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="263dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_input"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/reset_your_password_click_here"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password" />
+
+    <TextView
+        android:id="@+id/link_to_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/for_registration_click_here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="207dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="264dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/meetup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
